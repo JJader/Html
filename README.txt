@@ -21,4 +21,15 @@ font-size: 30pt;
 color: blue;
 text-shadow: 2px 2px 10px black;
 }
+------------------------------------------------------------------------
+<div id = "nome">divisão da interface</div>
+------------------------------------------------------------------------
+<hgroup>um grupo de titulos</hgroup>
+------------------------------------------------------------------------
+
+<img src = "caminho"> // inserindo imagem 
+------------------------------------------------------------------------
+
+<br/>//quebra de linha 
+&nbsp;//espaço em branco 
 
