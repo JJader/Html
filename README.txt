@@ -29,7 +29,9 @@ text-shadow: 2px 2px 10px black;
 
 <img src = "caminho"> // inserindo imagem 
 ------------------------------------------------------------------------
-
+<h1>título</h1>
+<p>paragrafo</p>
 <br/>//quebra de linha 
 &nbsp;//espaço em branco 
+<wbr/> ou &shy; // quebra de palavra ou com hifen 
 
