@@ -34,4 +34,18 @@ text-shadow: 2px 2px 10px black;
 <br/>//quebra de linha 
 &nbsp;//espaço em branco 
 <wbr/> ou &shy; // quebra de palavra ou com hifen 
+------------------------------------------------------------------------
+<b>Negrito</b>
+<i>itálico</i>
+<em>enfase</em>
+<u>sublinhado</u>
+<del>linha cortada</del>
+<sup>texto menor em cima</sup>
+<sub>texto menor em baixo</sub>
 
+<span style= "text-decoration: underline;">editar pequanas partes e sublinhando</span>
+
+<h2 style="text-align:center; text-indent: 50px"> para alinhamento e espaço de paragrafo </h2>
+
+<code>texto de código</code>
+<pre>os espaços e enter são vistos</pre>
