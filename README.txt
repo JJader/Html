@@ -27,7 +27,9 @@ text-shadow: 2px 2px 10px black;
 <hgroup>um grupo de titulos</hgroup>
 ------------------------------------------------------------------------
 
-<img src = "caminho"> // inserindo imagem 
+<img src = "caminho" width="200"> // inserindo imagem e tamanho da imagem 
+
+<figure> tag para enquadrar figuras </figure>
 ------------------------------------------------------------------------
 <h1>título</h1>
 <p>paragrafo</p>
@@ -51,3 +53,5 @@ text-shadow: 2px 2px 10px black;
 <pre>os espaços e enter são vistos</pre>
 ------------------------------------------------------------------------
 <body style="background-color: red"> cor do plano de fundo
+body bacground= <file> --> imagem
+color: rgba(R,G,B, transparência)
