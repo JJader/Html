@@ -101,3 +101,15 @@ figure.foto-legenda:hover figcaption{ --> caso o cursor passar na foto a opacida
 	opacity: 1;
 }
 ------------------------------------------------------------------------
+
+Menu de navegação 
+<nav>tag para navegação </nav>
+<ol>lista ordenada</ol>
+	<ol tipe="1" start="3"> numero, iniciando por 3
+	<ol tipe="a"> letra
+	<ol tipe="i"> organismos romanos
+<li>intens da lista</li>
+<ul>lista não ordenada</ul>
+	<ul tipe="square"> quadrado
+	<ul tipe="circle"> letra
+	<ul tipe="disc"> organismos romanos
