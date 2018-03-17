@@ -49,3 +49,5 @@ text-shadow: 2px 2px 10px black;
 
 <code>texto de código</code>
 <pre>os espaços e enter são vistos</pre>
+------------------------------------------------------------------------
+<body style="background-color: red"> cor do plano de fundo
