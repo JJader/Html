@@ -30,6 +30,13 @@ text-shadow: 2px 2px 10px black;
 <img src = "caminho" width="200"> // inserindo imagem e tamanho da imagem 
 
 <figure> tag para enquadrar figuras </figure>
+border: 8px solid red --> borda de imagem 
+
+figure.foto-legenda img{
+	width: 100%;
+	height: 100%;
+} --> imagem atualiza tamanho de acordo com a pagina
+box-shadow: 1px 1px 4px black; --> sombreando imagem
 ------------------------------------------------------------------------
 <h1>título</h1>
 <p>paragrafo</p>
@@ -55,3 +62,42 @@ text-shadow: 2px 2px 10px black;
 <body style="background-color: red"> cor do plano de fundo
 body bacground= <file> --> imagem
 color: rgba(R,G,B, transparência)
+------------------------------------------------------------------------
+ESTILO CSS
+copiar as linhas de estilo e colar em um arquivo css
+<link rel = "stylesheet" type= "text/css" href= "<file>" \>
+
+------------------------------------------------------------------------
+Legenda
+<figure class="foto-lefenda">// bloco de figuras com a classe F-L
+<figcaption>
+"Legenda"
+</figcaption>
+</figure>
+
+no arquivo css para edição de legenda
+________________________________________________________________________
+edição da classe foto legenda
+
+figure.foto-legenda{
+	position: relative;
+	border : 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+________________________________________________________________________
+figure.foto-legenda figcaption{ --> tag figure, classe F-L figcapition
+	opacity:0;
+	position:absolute;
+	top:0px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	width:100%;
+	height:100%;
+	padding: 10px; --> distância do texto com a borda
+	box-sizing: border-box; --> o texto não sai da imagem
+}
+________________________________________________________________________
+figure.foto-legenda:hover figcaption{ --> caso o cursor passar na foto a opacidade é 1
+	opacity: 1;
+}
+------------------------------------------------------------------------
