@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color:  #1b5f4f;
+    font: normal 20pt Muli;
+    color: white;
+}
+
+p{
+    font: normal 15pt Muli;
+    color: rgb(205, 213, 219);
+    text-align: justify;
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
+
+h1{
+    font: normal 25pt Muli;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cabecalho{
+    height:100%;
+    width: 27%;
+    float: left;
+    background-color: #0f352c;
+    border-right: 2px solid #395c57;
+}
+
+.lateral{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    height:100%;
+    width: 5%;
+    float: right;
+    background-color: #0f352c;
+    border-left: 2px solid #395c57; 
+}
+
+.corpo{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    height:100%;
+    width: 67.5%;
+    float: left;
+    background-color: #1b5f4f;
+}
