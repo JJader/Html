@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(37, 36, 36);
+    background-image: linear-gradient(rgb(37, 36, 36), black);
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+body, section, header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: rgb(173, 169, 169);
+}
+
+section {
+    background-color: #242420;
+    width: 100%;
+}
+
+#clientes {
+    background-color: #706565;
+}
+
+header, nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-content: stretch;
+    list-style-type: none;
+}
+
+li {
+    flex: 1;
+    background-color: #1b446d;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 5px;
+    box-shadow: 10px 5px 5px black
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
